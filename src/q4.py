@@ -5,10 +5,12 @@ def string_reverse(s):
     - s must be a string.
     - Return the reversed string.
     """
-    return
+    return s[::-1]
 
 
 # Task 2
 # Invoke the function "string_reverse" using the following scenarios:
 # - "Hello World"
 # - "Python"
+print(string_reverse("Hello World"))  # Output: "dlroW olleH"
+print(string_reverse("Python"))       # Output: "nohtyP"
