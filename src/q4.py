@@ -12,5 +12,6 @@ def string_reverse(s):
 # Invoke the function "string_reverse" using the following scenarios:
 # - "Hello World"
 # - "Python"
+
 print(string_reverse("Hello World"))  # Output: "dlroW olleH"
 print(string_reverse("Python"))       # Output: "nohtyP"

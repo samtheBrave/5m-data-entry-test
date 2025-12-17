@@ -8,7 +8,7 @@ def find_and_replace(lst, find_val, replace_val):
     if isinstance(lst, list):  # Ensure lst is a list
         return [replace_val if item == find_val else item for item in lst]
     else:
-        return "Input must be a list."
+        return "Input must be a list. "
 
 
 
